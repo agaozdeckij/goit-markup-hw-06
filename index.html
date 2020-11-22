@@ -426,6 +426,42 @@
             <use href="./images/sprite.svg#icon-Vector"></use>
           </svg>
         </button>
+        <div class="modal-content">
+          <h1 class="title-modal">Оставьте свои данные, мы вам перезвоним</h1>
+          <label class="modal-content-label">
+            Имя
+            <input class="modal-content-input" type="text" name="user-name">
+            <svg class="modal-content-icon" width="18px" height="18px">
+              <use href="./images/sprite.svg#icon-person-modal"></use>
+            </svg>
+          </label>
+          <label class="modal-content-label">
+            Телефон
+            <input class="modal-content-input" type="tel" name="user-phone">
+            <svg class="modal-content-icon" width="18px" height="18px">
+              <use href="./images/sprite.svg#icon-tel-modal"></use>
+            </svg>
+          </label>
+          <label class="modal-content-label">
+            Почта
+            <input class="modal-content-input" type="email" name="user-mail">
+            <svg class="modal-content-icon" width="18px" height="18px">
+              <use href="./images/sprite.svg#icon-mail-modal"></use>
+            </svg>
+          </label>
+          <label class="modal-content-label">
+            Комментарий
+            <textarea class="modal-content-input coments" name="user-comments" rows="10" placeholder="Введите текст"></textarea>
+        
+          </label>
+          <label class="lable-check" for="policy">
+            <input class="checkbox" type="checkbox" name="policy" id="policy">
+            <span class="icon-check"></span>
+            Соглашаюсь с рассылкой и принимаю <a href="" class="license-accept">Условия договора</a>
+          </label>
+
+          <button class="modal-content-button" type="submit">Отправить</button>
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
